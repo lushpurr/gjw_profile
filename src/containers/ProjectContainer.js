@@ -16,7 +16,7 @@ function ProjectContainer(){
 
             <Switch>
             
-            <Route exact path="/" render={() => {
+            <Route exact path={process.env.PUBLIC_URL + '/'} render={() => {
                 return (
                     <>
                         <div className="project-info">

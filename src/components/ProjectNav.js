@@ -11,7 +11,7 @@ function ProjectNav(){
 
             <ul className='nav'>
                 <li>
-                    <NavLink exact to="/"><FaIdCard className="icon"/></NavLink>
+                    <NavLink exact to={process.env.PUBLIC_URL + '/'}><FaIdCard className="icon"/></NavLink>
                 </li>
                 <li>
                     <NavLink to="/spend-tracker"><FaMoneyBillWave className="icon" alt="Spend Tracker"/></NavLink>

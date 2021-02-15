@@ -1,5 +1,4 @@
 import React from 'react';
-import './ProjectInfo.css'
 import Face from '.././images/face.jpg';
 import '../components/projects/Projects.css';
 
