@@ -26,7 +26,7 @@ function ProjectContainer(){
                     )
                 }}
             />
-            <Route path="/spend-tracker" render={() => {
+            <Route exact path="/spend-tracker" render={() => {
                 return (
                 <>
                 <div className="project-info">
@@ -36,7 +36,7 @@ function ProjectContainer(){
                 )}}
             />
 
-            <Route path="/solar-system" render={() => {
+            <Route exact path="/solar-system" render={() => {
                 return (
                 <>
                 <div className="project-info">
@@ -45,7 +45,7 @@ function ProjectContainer(){
                 </>
                 )}}
             />
-            <Route path="/food-management" render={() => {
+            <Route exact path="/food-management" render={() => {
                     return (
                     <>
                     <div className="project-info">
@@ -54,7 +54,7 @@ function ProjectContainer(){
                     </>
                     )}}
             />
-            <Route path="/music" render={() => {
+            <Route exact path="/music" render={() => {
                     return (
                     <>
                     <div className="project-info">
@@ -63,7 +63,7 @@ function ProjectContainer(){
                     </>
                     )}}
             />
-            <Route path="/adventure-game" render={() => {
+            <Route exact path="/adventure-game" render={() => {
                     return (
                     <>
                     <div className="project-info">
