@@ -47,6 +47,7 @@ h2{
 .nav a{
     padding:3px;
     font-size:xx-large;
+    color: rgb(58, 152, 58);
     opacity:0.5;
 
     border-top-left-radius: 5px;
@@ -59,7 +60,7 @@ h2{
 }
 
 .nav a:hover {
-    color: coral;
+    color: rgb(190, 45, 227);
 }
 
 

@@ -6,6 +6,8 @@
 }
 .project-image{
     max-height:200px;
+    box-shadow: lightblue 3px 3px;
+    border-radius: 5px;
 }
 h3{
     font-size: small;
