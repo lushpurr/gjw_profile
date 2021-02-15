@@ -6,6 +6,9 @@
 }
 .project-image{
     max-height:200px;
+    display: block;
+    width: auto;
+    max-width: 95%;
     box-shadow: lightblue 3px 3px;
     border-radius: 5px;
 }
@@ -18,7 +21,7 @@ p{
 
 .contact-details{
     list-style: none;
-    background-color: white;
+    /* background-color: rgba(255, 255, 255, 0.6); */
     display: flex;
     flex-direction: row;
     align-content: center;

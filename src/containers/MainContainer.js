@@ -1,5 +1,3 @@
-
-
 import React from 'react';
 import ProjectContainer from './ProjectContainer';
 import Footer from '../components/Footer'
@@ -9,10 +7,7 @@ function MainContainer() {
         <>
         <ProjectContainer/>
         <Footer/>
-
         </>
-
-
     )
 }
 

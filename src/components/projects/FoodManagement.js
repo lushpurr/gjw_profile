@@ -13,8 +13,9 @@ const FoodManagement = () => {
         
         
         <p>* User profile, and order details persist throughout the site.<br/>
-            * External API to return menu items details and dynamically added prices and cooking times in Spring backend.<br/>
-            * Search menu items.</p>
+            * External API to return menu items details.<br/>
+            * Prices and cooking times added dynamically in Spring backend.<br/>
+            * Filterable menu item.</p>
         
         <section>
         <a href="https://github.com/lushpurr/E44_Final_Project">Github</a>

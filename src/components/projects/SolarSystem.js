@@ -7,7 +7,8 @@ const SolarSystem = () => {
         <h3>Educational Solar System App | Team project </h3> 
         <img className="project-image" src={CosmodexImage}/>
         
-        <p>Javascript -  Vue.js - API - MongoDB | December 2020 <br/> An interactive educational tool to learn about our local Solar System. <br/>
+        <p>Javascript -  Vue.js - API - MongoDB | December 2020 <br/> 
+        An interactive educational tool to learn about our local Solar System. <br/>
         Timeframe: 7 days.</p>
         <p> Features include:</p>
         

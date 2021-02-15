@@ -1,4 +1,3 @@
-// import logo from './logo.svg';
 import './index.css';
 
 import MainContainer from './containers/MainContainer.js';

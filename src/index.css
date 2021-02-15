@@ -1,5 +1,7 @@
+
+
 body {
-  width:70%;
+  width:60%;
   
   background: repeating-radial-gradient(closest-side at 25px 35px, bisque 15%, #eee 40%);
   background-size:50px 60px;

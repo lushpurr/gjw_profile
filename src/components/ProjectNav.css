@@ -33,19 +33,19 @@ h2{
 }
 .active {
     color:black!important; 
-    background-color: white!important;  
+    background-color: rgba(255, 255, 255, 0.6)!important;  
     opacity:1!important;
 }
 
 .active:hover {
     color:coral!important; 
-    background-color: white!important;  
+    background-color: rgba(255, 255, 255, 0.6)!important;  
     opacity:1!important;
  
 
 }
 .nav a{
-    padding:3px;
+    padding:3px 3px 0 3px;
     font-size:xx-large;
     color: rgb(58, 152, 58);
     opacity:0.5;

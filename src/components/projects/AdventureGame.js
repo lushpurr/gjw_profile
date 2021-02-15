@@ -7,15 +7,16 @@ const AdventureGame = () => {
         <h3>Text Based Adventure Game | Pair project </h3> 
         <img className="project-image" src={AdventureGameImage}/>
         
-        <p>Jave -  IntelliJ - Spring | December 2020 <br/> This is an ongoing paired project, with my CodeClan coursemate Emily Cullen , in which we are making a text adventure game. <br/>
+        <p>Java -  IntelliJ - Spring | December 2020 <br/> Text adventure game with CodeClan coursemate Emily Cullen. <br/>
         Timeframe: Ongoing.</p>
         <p>Features include:</p>
         <p>
-        * Our game implements the use of classes, enums, inheritence and composition. <br/>
-        * The player is able to move through different rooms in the game, pick up objects, and fight enemies. 
+        * Implements the use of classes, enums, inheritence and composition. <br/>
+        * The player can move through different rooms, pick up objects, and fight enemies. <br/>
         * Word parser that is able to process commands given by the user.</p>
 
-        <p>The game is written entirely in Java and runs in the console, we will add a front-end in the future.</p>
+        <p>The game is written entirely in Java and runs in the console.<br/>
+        We intend to add a front-end in the future.</p>
 
         
         <section> 

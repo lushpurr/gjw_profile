@@ -6,9 +6,7 @@ const Footer = () => {
     return (
         <>
         <p>Made with React | Gavin J Will | 2021</p>
-
         </>
-
     )
 }
 
