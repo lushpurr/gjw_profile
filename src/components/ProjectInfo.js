@@ -27,15 +27,15 @@ const ProjectInfo = () => {
         <h3>Portfolio - Pick a project for more info</h3> 
         <span>
             <div id="project-info">
-                <img className="project-image" src={Face}/>
+                <img className="project-face" src={Face}/>
                 <ul>
                     <li>Languages: Javascript, Python, Java</li>
                     <li>Frontend Frameworks: React, Vue.js, Flask</li>
                     <li>Other Technologies: IntelliJ, Node.js, MongoDB, Git, Github, Html5, CSS, Mocha, Express.js, Spring, PostgreSQL</li>
                     <li id="blank-li"></li>
-                    <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope/>Email</li>
-                    <li className="contact-details"><a href="https://www.linkedin.com/in/gavin-j-will"><FaLinkedin/>LinkedIn</a></li>
-                    <li className="contact-details"><a href="https://github.com/lushpurr"><FaGithub/>Github</a></li>
+                    <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope className="icon" />Email</li>
+                    <li className="contact-details"><a href="https://www.linkedin.com/in/gavin-j-will"><FaLinkedin className="icon" />LinkedIn</a></li>
+                    <li className="contact-details"><a href="https://github.com/lushpurr"><FaGithub className="icon" />Github</a></li>
                     
                 </ul>
             </div>
