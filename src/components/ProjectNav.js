@@ -1,21 +1,42 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, {useState} from 'react';
+import { NavLink } from "react-router-dom";
 
-import {FaMoneyBillWave , FaMoon, FaPizzaSlice} from 'react-icons/fa';
+import {FaIdCard, FaMoneyBillWave , FaMoon, FaPizzaSlice, FaHeadphones, FaDungeon} from 'react-icons/fa';
+import './ProjectNav.css'
+
 
 function ProjectNav(){
+
+
+
     return(
-        <ul className='nav-item'>
+        <nav className='Nav'>
+                    
+        <h2>Gavin Will | Software Developer</h2>
+        
+        <ul className='nav'>
         <li>
-            <Link to="/project1"><FaMoneyBillWave className="icon"/>Spend Tracker</Link>
+            <NavLink to="/details"><FaIdCard className="icon"/></NavLink>
         </li>
         <li>
-            <Link to="/project2"><FaMoon className="icon"/>Solar System Educational App</Link>
+            <NavLink to="/spend-tracker"><FaMoneyBillWave className="icon"/></NavLink>
+        </li>
+        <li>
+            <NavLink to="/solar-system"><FaMoon className="icon"/></NavLink>
         </li>
         <li> 
-          <Link to="/project3"><FaPizzaSlice className="icon"/>Food Ordering System</Link>
+          <NavLink to="/project3"><FaPizzaSlice className="icon"/></NavLink>
         </li>
+        <li> 
+          <NavLink to="/project4"><FaHeadphones className="icon"/></NavLink>
+        </li>
+        <li> 
+          <NavLink to="/project5"><FaDungeon className="icon"/></NavLink>
+        </li>
+
     </ul>
+    
+    </nav>
     )
 }
 

@@ -1,0 +1,36 @@
+#project-info{
+    
+    display: flex;
+    flex-direction: row;
+
+}
+.project-image{
+    max-height:200px;
+}
+h3{
+    font-size: small;
+}
+p{
+    font-size: smaller;
+}
+
+.contact-details{
+    list-style: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    
+    
+}
+
+.contact-details a{
+    text-decoration: none;
+}
+
+
+
+#blank-li{
+    list-style:none;
+    height:10px;
+}

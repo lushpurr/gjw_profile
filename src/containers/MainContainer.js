@@ -2,13 +2,13 @@
 
 import React from 'react';
 import ProjectContainer from './ProjectContainer';
+import Footer from '../components/Footer'
 
 function MainContainer() {
     return(
         <>
-        <h1>Gavin Will</h1>
-        <h2>Software Developer</h2>
         <ProjectContainer/>
+        <Footer/>
 
         </>
 
