@@ -11,9 +11,6 @@ h2{
     display: flex;
     flex-direction: row;
     list-style:none;
-    margin:none;
-    border:none;
-    padding:none;
     margin-block-start: 0em!important;
     margin-block-end: 0em!important;
     margin-inline-start: 0px!important;
@@ -25,7 +22,6 @@ h2{
 .nav ul {
     margin:none;
     border:none;
-    padding:none;
     margin-block-start: 0em!important;
     margin-block-end: 0em!important;
     margin-inline-start: 0px!important;
@@ -52,9 +48,7 @@ h2{
 
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    margin:none;
-    border:none;
-    padding:none;
+
     text-decoration: none;
 
 }
