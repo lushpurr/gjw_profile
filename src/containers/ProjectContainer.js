@@ -15,7 +15,8 @@ function ProjectContainer(){
             <ProjectNav/>
 
             <Switch>
-            <Route path="/details" render={() => {
+            
+            <Route exact path="/" render={() => {
                 return (
                     <>
                         <div className="project-info">
