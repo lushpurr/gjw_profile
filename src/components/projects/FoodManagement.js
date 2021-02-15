@@ -1,18 +1,24 @@
 import React from 'react';
+import PizzaPanImage from '../../images/pizza_pan.png';
 
 const FoodManagement = () => {
     return( 
         <>
-        <h3>Spend Tracker | Solo project |  Python - Flask - postgreSQL | November 2020</h3>
+        <h3>Restaurant Booking System |Team project</h3>
+        <img className="project-image" src={PizzaPanImage}/>
 
-        <p>A web app which allows users to control and track their finances. Features include:</p>
+        <p>React - Java - Spring | January 2021 <br/>
+        Full stack restaurant booking application. Timeframe: 7days.</p>
+        <p>Features include:</p>
         
-        <p>* Add and manage transactions, retailers and tags.</p>
-        <p>* Filter transactions by tags. </p>
-        <p>* See a total of all transactions.</p>
-
-        <a href="https://tour-budget-tracker.herokuapp.com/">Hosted App</a> || 
-        <a href="https://github.com/lushpurr/project1_spend_tracker">Github</a>
+        
+        <p>* User profile, and order details persist throughout the site.<br/>
+            * External API to return menu items details and dynamically added prices and cooking times in Spring backend.<br/>
+            * Search menu items.</p>
+        
+        <section>
+        <a href="https://github.com/lushpurr/E44_Final_Project">Github</a>
+        </section>
         </>
     )
 }

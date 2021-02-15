@@ -19,19 +19,19 @@ function ProjectNav(){
             <NavLink to="/details"><FaIdCard className="icon"/></NavLink>
         </li>
         <li>
-            <NavLink to="/spend-tracker"><FaMoneyBillWave className="icon"/></NavLink>
+            <NavLink to="/spend-tracker"><FaMoneyBillWave className="icon" alt="Spend Tracker"/></NavLink>
         </li>
         <li>
             <NavLink to="/solar-system"><FaMoon className="icon"/></NavLink>
         </li>
         <li> 
-          <NavLink to="/project3"><FaPizzaSlice className="icon"/></NavLink>
+          <NavLink to="/food-management"><FaPizzaSlice className="icon"/></NavLink>
         </li>
         <li> 
-          <NavLink to="/project4"><FaHeadphones className="icon"/></NavLink>
+          <NavLink to="/music"><FaHeadphones className="icon"/></NavLink>
         </li>
         <li> 
-          <NavLink to="/project5"><FaDungeon className="icon"/></NavLink>
+          <NavLink to="/adventure-game"><FaDungeon className="icon"/></NavLink>
         </li>
 
     </ul>
