@@ -27,41 +27,52 @@ function ProjectContainer(){
             />
             <Route path="/spend-tracker" render={() => {
                 return (
-                    <>
-                        <div className="project-info">
-                            <SpendTracker/>
-                        </div>
-                    </>
-                    )
-                }}
+                <>
+                <div className="project-info">
+                    <SpendTracker/>
+                </div>
+                </>
+                )}}
             />
 
-                <Route path="/solar-system" render={() => {
-                    return <><div className="project-info"><SolarSystem/></div></>
-                }}
-                />
-
-                <Route path="/food-management" render={() => {
-                    return <><div className="project-info"><FoodManagement/></div></>
-                }}
-                />
-                <Route path="/music" render={() => {
-                    return <><div className="project-info"><Music/></div></>
-                }}
-                />
-                <Route path="/adventure-game" render={() => {
-                    return <><div className="project-info"><AdventureGame/></div></>
-                }}
-                />
+            <Route path="/solar-system" render={() => {
+                return (
+                <>
+                <div className="project-info">
+                    <SolarSystem/>
+                </div>
+                </>
+                )}}
+            />
+            <Route path="/food-management" render={() => {
+                    return (
+                    <>
+                    <div className="project-info">
+                        <FoodManagement/>
+                    </div>
+                    </>
+                    )}}
+            />
+            <Route path="/music" render={() => {
+                    return (
+                    <>
+                    <div className="project-info">
+                        <Music/>
+                    </div>
+                    </>
+                    )}}
+            />
+            <Route path="/adventure-game" render={() => {
+                    return (
+                    <>
+                    <div className="project-info">
+                        <AdventureGame/>
+                    </div>
+                    </>
+                    )}}
+            />
             </Switch>
         </Router>
-
-
-        // <>
-        // <ProjectNav/>
-        // <ProjectInfo/>
-        // </>
-        
     )
 }
 
