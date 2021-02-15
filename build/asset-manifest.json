@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/gjw_profile/static/css/main.d695c545.chunk.css",
+    "main.js": "/gjw_profile/static/js/main.b5d891e3.chunk.js",
+    "main.js.map": "/gjw_profile/static/js/main.b5d891e3.chunk.js.map",
+    "runtime-main.js": "/gjw_profile/static/js/runtime-main.40f94919.js",
+    "runtime-main.js.map": "/gjw_profile/static/js/runtime-main.40f94919.js.map",
+    "static/js/2.028d3842.chunk.js": "/gjw_profile/static/js/2.028d3842.chunk.js",
+    "static/js/2.028d3842.chunk.js.map": "/gjw_profile/static/js/2.028d3842.chunk.js.map",
+    "static/js/3.d486ed17.chunk.js": "/gjw_profile/static/js/3.d486ed17.chunk.js",
+    "static/js/3.d486ed17.chunk.js.map": "/gjw_profile/static/js/3.d486ed17.chunk.js.map",
+    "index.html": "/gjw_profile/index.html",
+    "static/css/main.d695c545.chunk.css.map": "/gjw_profile/static/css/main.d695c545.chunk.css.map",
+    "static/js/2.028d3842.chunk.js.LICENSE.txt": "/gjw_profile/static/js/2.028d3842.chunk.js.LICENSE.txt",
+    "static/media/adventure_game.d6a05430.png": "/gjw_profile/static/media/adventure_game.d6a05430.png",
+    "static/media/cosmodex.7b02a95e.png": "/gjw_profile/static/media/cosmodex.7b02a95e.png",
+    "static/media/face.3a593a4c.jpg": "/gjw_profile/static/media/face.3a593a4c.jpg",
+    "static/media/lush_purr.7dd0dc72.png": "/gjw_profile/static/media/lush_purr.7dd0dc72.png",
+    "static/media/pizza_pan.ff6d1dde.png": "/gjw_profile/static/media/pizza_pan.ff6d1dde.png",
+    "static/media/spend_tracker.ca59d222.png": "/gjw_profile/static/media/spend_tracker.ca59d222.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.40f94919.js",
+    "static/js/2.028d3842.chunk.js",
+    "static/css/main.d695c545.chunk.css",
+    "static/js/main.b5d891e3.chunk.js"
+  ]
+}
