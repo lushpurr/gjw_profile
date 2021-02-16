@@ -10,8 +10,8 @@ const Music = () => {
         <p>Html5 -  CSS - Javascript | 2017 <br/> This is one of my projects I used to teach myself basic web design skills</p>
         <p> Features include:</p>
         
-        <p>* Embedded videos<br/>
-        * SongKick Tourbox to display upcoming concerts</p>
+        <p>* Embedded videos.<br/>
+        * SongKick Tourbox to display upcoming concerts.</p>
 
         
         <section> 

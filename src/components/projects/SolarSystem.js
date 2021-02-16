@@ -14,7 +14,7 @@ const SolarSystem = () => {
         
         <p>* Interactive list of planets that can be dynamically ordered by size or distance from the sun.<br/>
         * Data pulled from two external API and additional info added using MongoDB. <br/>
-        * Glossary containing Astrological terms</p>
+        * Glossary containing Astrological terms.</p>
 
         
         <section> 
