@@ -27,15 +27,15 @@ const ProjectInfo = () => {
         <h3>Portfolio - Pick a project for more info</h3> 
         <span>
             <div id="project-info">
-                <img className="project-face" src={Face}/>
+                <img alt="profile" className="project-face" src={Face}/>
                 <ul>
-                    <li>Languages: Javascript, Python, Java</li>
-                    <li>Frontend Frameworks: React, Vue.js, Flask</li>
-                    <li>Other Technologies: IntelliJ, Node.js, MongoDB, Git, Github, Html5, CSS, Mocha, Express.js, Spring, PostgreSQL</li>
+                    <li>Languages: Javascript, Typescript, Python, Java</li>
+                    <li>Frontend Frameworks: Angular, Ionic, React, Vue.js</li>
+                    <li>Other Technologies: Visual studio code, IntelliJ, Node.js, Git, Github, Html5, CSS, Mocha, Express.js, Spring, PostgreSQL, MongoDB</li>
                     <li id="blank-li"></li>
-                    <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope className="icon" />Email</li>
-                    <li className="contact-details"><a href="https://www.linkedin.com/in/gavin-j-will"><FaLinkedin className="icon" />LinkedIn</a></li>
-                    <li className="contact-details"><a href="https://github.com/lushpurr"><FaGithub className="icon" />Github</a></li>
+                    <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope /><div>Email</div></li>
+                    <li className="contact-details"><a className="link" href="https://www.linkedin.com/in/gavin-j-will" target="_blank" rel="noreferrer"><FaLinkedin />LinkedIn</a></li>
+                    <li className="contact-details"><a className="link" href="https://github.com/lushpurr" target="_blank" rel="noreferrer"><FaGithub />Github</a></li>
                     
                 </ul>
             </div>
