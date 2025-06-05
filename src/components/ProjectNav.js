@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { NavLink } from "react-router-dom";
-import {FaIdCard, FaMoneyBillWave , FaMoon, FaPizzaSlice, FaHeadphones, FaDungeon} from 'react-icons/fa';
+import {FaShuttleVan, FaIdCard, FaMoneyBillWave , FaMoon, FaPizzaSlice, FaHeadphones, FaDungeon} from 'react-icons/fa';
 import './ProjectNav.css'
 
 function ProjectNav(){
@@ -13,6 +13,12 @@ function ProjectNav(){
                 <li>
                     <NavLink exact to={process.env.PUBLIC_URL + '/'}><FaIdCard className="icon" title="Profile"/></NavLink>
                 </li>
+
+                <li>
+                    <NavLink to="/uniqore"><FaShuttleVan className="icon" title="Spend Tracker"/></NavLink>
+
+                </li>
+
                 <li>
                     <NavLink to="/spend-tracker"><FaMoneyBillWave className="icon" title="Spend Tracker"/></NavLink>
                 </li>

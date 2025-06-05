@@ -7,6 +7,7 @@ import SolarSystem from '../components/projects/SolarSystem';
 import FoodManagement from '../components/projects/FoodManagement';
 import Music from '../components/projects/Music';
 import AdventureGame from '../components/projects/AdventureGame';
+import UniQore from '../components/projects/UniQore';
 import './ProjectContainer.css'
 
 function ProjectContainer(){
@@ -26,6 +27,16 @@ function ProjectContainer(){
                     )
                 }}
             />
+            <Route exact path="/uniqore" render={() => {
+                return (
+                    <>
+										  <div className="project-info">
+                  			<UniQore/>
+                			</div>
+
+										</>
+                )
+            }}/>
             <Route exact path="/spend-tracker" render={() => {
                 return (
                 <>
