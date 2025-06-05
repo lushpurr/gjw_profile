@@ -14,18 +14,24 @@ function ProjectNav(){
     { to: '/adventure-game', icon: <FaDungeon />, title: 'Text Adventure Game - Paired Project' }
     ];
     const [selectedTitle, setSelectedTitle] = useState('');
+    const [isLocked, setIsLocked] = useState(false);
+
 
     return(
         <nav className='Nav'>      
-            <h2>Gavin Will | Software Developer</h2>
+            <h2>Gavin Will | Software Developer Portfolio</h2>
 
             <ul className='nav'>
                 {navItems.map((item, index) => (
                 <li key={index}>
                 <NavLink
                     to={item.to}
-                    onMouseEnter={() => setSelectedTitle(item.title)}
-                    onMouseLeave={() => setSelectedTitle('')}
+                    onMouseEnter={() => !isLocked && setSelectedTitle(item.title)}
+                    onMouseLeave={() => !isLocked && setSelectedTitle('')}
+                    onClick={() => {
+                        setSelectedTitle(item.title);
+                        setIsLocked(true);
+                    }}
                 >
                     {item.icon}
                 </NavLink>
