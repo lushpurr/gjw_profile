@@ -15,7 +15,7 @@ function ProjectNav(){
                 </li>
 
                 <li>
-                    <NavLink to="/uniqore"><FaShuttleVan className="icon" title="Spend Tracker"/></NavLink>
+                    <NavLink to="/uniqore"><FaShuttleVan className="icon" title="UniQore"/></NavLink>
 
                 </li>
 
