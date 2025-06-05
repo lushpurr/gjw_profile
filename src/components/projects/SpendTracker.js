@@ -5,10 +5,9 @@ import './Projects.css';
 const SpendTracker = () => {
     return (
         <>
-        <h3>Spend Tracker | Solo project</h3> 
-        <img className="project-image" src={SpendTrackerImage}/>
-        
-        <p>Python - Flask - postgreSQL | November 2020<br/>
+        <h4>Python - Flask - postgreSQL | November 2020</h4> 
+        <img className="project-image" alt="Spend tracker screenshot" src={SpendTrackerImage}/>
+        <p>
         A web app which allows users to control and track their finances. <br/>
         Timeframe: 7 days.</p>
         <p>Features include</p>
@@ -17,7 +16,8 @@ const SpendTracker = () => {
             * Filter transactions by tags. <br/>
 	        * See a total of all transactions.</p>
 
-        <section><a href="https://tour-budget-tracker.herokuapp.com/">Hosted App</a> || 
+        <section>
+        {/* <a href="https://tour-budget-tracker.herokuapp.com/">Hosted App</a> ||  */}
         <a href="https://github.com/lushpurr/project1_spend_tracker">Github</a>
         </section>
         

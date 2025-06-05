@@ -24,13 +24,14 @@ const ProjectInfo = () => {
 
     return (
         <>
-        <span>
             <div id="project-info">
-                <img alt="profile" className="project-face" src={Face}/>
-                <ul>
-                    <li style={{ 'padding-bottom': 10, 'list-style-type': 'square'}}>Mid-level Software Developer with a background in engineering, I use strong problem-solving skills, attention to detail, and a drive for continuous learning to deliver full-stack web and mobile solutions.</li>
+                <h4>Software Developer with a background in engineering</h4>
+                <div className="main">
+                    <img alt="profile" className="project-face" src={Face}/>
+                     <ul>
+                    <li style={{ 'paddingBottom': 10, 'listStyleType': 'square'}}>I use strong problem-solving skills, attention to detail, and a drive for continuous learning to deliver full-stack web and mobile solutions.</li>
 
-                    <li style={{'list-style-type': 'square'}}>Typescript, Javascript, Python, Java,  Angular, React, Vue.js, Ionic, Xcode, Android Studio, GraphQl, Tailwind, HTML, CSS, SCSS/SASS, AWS Amplify, AppSync, DynamoDB, CloudWatch, Git, MongoDB, PostgreSQL, Figma, Storybook, Chromatic, VS Code, Jira, Cypress, Mocha,  Express, Spring</li>
+                    <li style={{'listStyleType': 'square'}}>Typescript, Javascript, Python, Java,  Angular, React, Vue.js, Ionic, Xcode, Android Studio, GraphQl, Tailwind, HTML, CSS, SCSS/SASS, AWS Amplify, AppSync, DynamoDB, CloudWatch, Git, MongoDB, PostgreSQL, Figma, Storybook, Chromatic, VS Code, Jira, Cypress, Mocha,  Express, Spring</li>
 
                     <li id="blank-li"></li>
                     <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope /><div>Email</div></li>
@@ -38,8 +39,11 @@ const ProjectInfo = () => {
                     <li className="contact-details"><a className="link" href="https://github.com/lushpurr" target="_blank" rel="noreferrer"><FaGithub />Github</a></li>
                     
                 </ul>
+
+
+                </div>
+               
             </div>
-        </span>
         </>
     )
 }

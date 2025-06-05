@@ -6,11 +6,7 @@ import OnboardingImage2 from '../../images/onboarding_2.png'
 const UniQore = () => {
     return (
         <>
-					<h3>Uniqore - Complete Logistics Solution</h3>
-					<p>
-						Typescript - Angular - GraphQl - DynamoDb   <br/>
-						Jun 2021 - May 2025
-					</p>
+					<h4>Typescript - Angular - GraphQl - DynamoDb | June 2020 - May 2025</h4>   
 					<p>
 						Major projects include:
 					</p>

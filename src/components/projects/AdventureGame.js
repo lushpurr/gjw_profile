@@ -4,10 +4,10 @@ import AdventureGameImage from '../../images/adventure_game.png';
 const AdventureGame = () => {
     return (
         <>
-        <h3>Text Based Adventure Game | Pair project </h3> 
+        <h4>Java -  IntelliJ - Spring | Pair project | December 2020</h4>
         <img className="project-image" alt="adventure game screenshot" src={AdventureGameImage}/>
         
-        <p>Java -  IntelliJ - Spring | December 2020 <br/> Text adventure game with CodeClan coursemate Emily Cullen. <br/>
+        <p>Text adventure game with CodeClan coursemate Emily Cullen. <br/>
         Timeframe: Ongoing.</p>
         <p>Features include:</p>
         <p>

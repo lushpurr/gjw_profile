@@ -9,6 +9,7 @@
     &.break{
     margin-bottom: 14px;
     }
+
 }
 
 
@@ -29,12 +30,6 @@
     }
   }
 
-#project-info{
-    
-    display: flex;
-    flex-direction: row;
-
-}
 
 a.link{
     display: inline-flex;
@@ -63,7 +58,8 @@ a.link{
     
         display: flex;
         flex-direction: column;
-    
+        
+ 
     }
 
   }
@@ -81,6 +77,11 @@ li {
     font-size: small;
 
 }
+
+       .main{
+            display: flex;
+            flex-direction: row;
+        }
 
 .contact-details{
     list-style: none;

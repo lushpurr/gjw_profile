@@ -29,7 +29,9 @@ h2{
     margin-inline-end: 0px!important;
 }
 .active {
-    color:black!important; 
+    /* color:black!important;  */
+        color: rgb(227, 63, 45)!important;
+
     background-color: rgba(255, 255, 255, 0.6)!important;  
     opacity:1!important;
         border-top-left-radius: 5px;
@@ -64,7 +66,10 @@ h2{
 
 .selected-title{
     color: rgb(227, 63, 45);
-    opacity: 0.6;
+    &.opacity{
+        opacity: 0.6;
+
+    }
 }
 
 .max-width{

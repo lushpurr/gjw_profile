@@ -4,10 +4,10 @@ import PizzaPanImage from '../../images/pizza_pan.png';
 const FoodManagement = () => {
     return( 
         <>
-        <h3>Restaurant Booking System |Team project</h3>
-        <img className="project-image" src={PizzaPanImage}/>
+        <h4>React - Java - Spring | January 2021</h4>
+        <img className="project-image" alt="Pizza pan screenshot" src={PizzaPanImage}/>
 
-        <p>React - Java - Spring | January 2021 <br/>
+        <p>
         Full stack restaurant booking application. Timeframe: 7days.</p>
         <p>Features include:</p>
         

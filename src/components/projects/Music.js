@@ -4,10 +4,10 @@ import LushPurrImage from '../../images/lush_purr.png'
 const Music = () => {
     return (
         <>
-        <h3>Musical Artist Site  | Solo project </h3> 
-        <img className="project-image" src={LushPurrImage}/>
+        <h4>Html5 -  CSS - Javascript | June 2017</h4> 
+        <img className="project-image" alt="Lush Purr screenshot" src={LushPurrImage}/>
         
-        <p>Html5 -  CSS - Javascript | 2017 <br/> This is one of my projects I used to teach myself basic web design skills</p>
+        <p>This is one of my projects I used to teach myself basic web design skills</p>
         <p> Features include:</p>
         
         <p>* Embedded videos.<br/>
