@@ -13,6 +13,11 @@
     margin-inline-end: 0px;
 }
 
+.project-face {
+    width: 230px;
+    height: 299px;
+}
+
 h2{
     padding:5px;
     margin:none;

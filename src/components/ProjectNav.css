@@ -56,3 +56,14 @@ h2{
 .nav a:hover {
     color: rgb(190, 45, 227);
 }
+
+.selected-title{
+    color: rgb(58, 152, 58);
+
+    opacity: 0.6;
+}
+
+.max-width{
+    max-width: 50%;
+}
+

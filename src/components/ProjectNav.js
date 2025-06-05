@@ -4,37 +4,40 @@ import {FaShuttleVan, FaIdCard, FaMoneyBillWave , FaMoon, FaPizzaSlice, FaHeadph
 import './ProjectNav.css'
 
 function ProjectNav(){
+    const navItems = [
+    { to: process.env.PUBLIC_URL + '/', icon: <FaIdCard />, title: null },
+    { to: '/uniqore', icon: <FaShuttleVan />, title: 'UniQore - Commercial Logistics Solution' },
+    { to: '/spend-tracker', icon: <FaMoneyBillWave />, title: 'Spend Tracker - Team Project' },
+    { to: '/solar-system', icon: <FaMoon />, title: 'Solar System App - Team Project' },
+    { to: '/food-management', icon: <FaPizzaSlice />, title: 'Restaurant App - Team Project' },
+    { to: '/music', icon: <FaHeadphones />, title: 'Music Site - Personal Project' },
+    { to: '/adventure-game', icon: <FaDungeon />, title: 'Text Adventure Game - Paired Project' }
+    ];
+    const [selectedTitle, setSelectedTitle] = useState('');
 
     return(
         <nav className='Nav'>      
             <h2>Gavin Will | Software Developer</h2>
 
             <ul className='nav'>
-                <li>
-                    <NavLink exact to={process.env.PUBLIC_URL + '/'}><FaIdCard className="icon" title="Profile"/></NavLink>
+                {navItems.map((item, index) => (
+                <li key={index}>
+                <NavLink
+                    to={item.to}
+                    onMouseEnter={() => setSelectedTitle(item.title)}
+                    onMouseLeave={() => setSelectedTitle('')}
+                >
+                    {item.icon}
+                </NavLink>
                 </li>
+            ))}
+                
+        
+                <h3 className='selected-title'>{selectedTitle && <div className="hover-title">{selectedTitle}</div>}</h3>
 
-                <li>
-                    <NavLink to="/uniqore"><FaShuttleVan className="icon" title="UniQore"/></NavLink>
-
-                </li>
-
-                <li>
-                    <NavLink to="/spend-tracker"><FaMoneyBillWave className="icon" title="Spend Tracker"/></NavLink>
-                </li>
-                <li>
-                    <NavLink to="/solar-system"><FaMoon className="icon" title="Solar System App"/></NavLink>
-                </li>
-                <li> 
-                    <NavLink to="/food-management"><FaPizzaSlice className="icon" title="Restaurant Ordering Management App"/></NavLink>
-                </li>
-                <li> 
-                    <NavLink to="/music"><FaHeadphones className="icon" title="Music Artist Website"/></NavLink>
-                </li>
-                <li> 
-                    <NavLink to="/adventure-game"><FaDungeon className="icon" title="Text Adventure Game" /></NavLink>
-                </li>
             </ul>
+
+
         </nav>
     )
 }

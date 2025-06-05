@@ -5,7 +5,13 @@
     max-width: 95%;
     box-shadow: lightblue 3px 3px;
     border-radius: 5px;
+
+    &.break{
+    margin-bottom: 14px;
+    }
 }
+
+
 
 .project-face{
     max-height:300px;
