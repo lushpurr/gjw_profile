@@ -24,7 +24,6 @@ const ProjectInfo = () => {
 
     return (
         <>
-        {/* <h3>Portfolio - Pick a project for more info</h3>  */}
         <span>
             <div id="project-info">
                 <img alt="profile" className="project-face" src={Face}/>
