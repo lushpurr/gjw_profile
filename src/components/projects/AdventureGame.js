@@ -5,7 +5,7 @@ const AdventureGame = () => {
     return (
         <>
         <h3>Text Based Adventure Game | Pair project </h3> 
-        <img className="project-image" src={AdventureGameImage}/>
+        <img className="project-image" alt="adventure game screenshot" src={AdventureGameImage}/>
         
         <p>Java -  IntelliJ - Spring | December 2020 <br/> Text adventure game with CodeClan coursemate Emily Cullen. <br/>
         Timeframe: Ongoing.</p>
@@ -15,8 +15,7 @@ const AdventureGame = () => {
         * The player can move through different rooms, pick up objects, and fight enemies. <br/>
         * Word parser that is able to process commands given by the user.</p>
 
-        <p>The game is written entirely in Java and runs in the console.<br/>
-        We intend to add a front-end in the future.</p>
+        <p>The game is written entirely in Java and runs in the console.</p>
 
         
         <section> 
