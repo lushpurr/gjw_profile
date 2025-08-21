@@ -18,19 +18,22 @@ function ProjectNav(){
 
     const location = useLocation()
     // const [isLocked, setIsLocked] = useState(false);
-    const [selectedIndex, setSelectedIndex] = useState(null);
+    const [selectedIndex, setSelectedIndex] = useState(0);
     const [hoverIndex, setHoverIndex] = useState(null)
     useEffect(() => {
         const currentIndex = navItems.findIndex(item => location.pathname === item.to);
+        if(currentIndex !== -1){
         setSelectedIndex(currentIndex);
+
+        }
         // setIsLocked(true);
     }, [location.pathname]);
 
     return(
-        <nav className='Nav'>      
+        <nav className='nav'>      
             {/* <h2>Gavin Will | Software Developer Portfolio</h2> */}
 
-            <ul className='nav'>
+            <ul className='nav-list'>
                 {navItems.map((item, index) => (
                 <li key={index}>
                 <NavLink
@@ -48,9 +51,11 @@ function ProjectNav(){
             ))}
                 
         
-                <h3 className={(hoverIndex !== null &&  hoverIndex !== selectedIndex)? 'selected-title opacity' : 'selected-title'}>{(selectedIndex !== null || hoverIndex !== null) && <div className="hover-title">{hoverIndex !== null?navItems[hoverIndex].title : navItems[selectedIndex].title}</div>}</h3>
 
             </ul>
+
+            <h3 className={(hoverIndex !== null &&  hoverIndex !== selectedIndex)? 'selected-title opacity' : 'selected-title'}>{(selectedIndex !== null || hoverIndex !== null) && <div className="hover-title">{hoverIndex !== null?navItems[hoverIndex].title : navItems[selectedIndex].title}</div>}</h3>
+
 
 
         </nav>

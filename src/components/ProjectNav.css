@@ -10,6 +10,20 @@ h2{
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column-reverse;
+        align-items: unset;
+    }
+}
+
+.nav-list {
+    display: flex;
+    flex-direction: row;
     list-style:none;
     margin-top: 8px;
     /* margin-block-start: 0em!important; */
@@ -20,7 +34,7 @@ h2{
 }
 
 
-.nav ul {
+.nav-list ul {
     margin:none;
     border:none;
     margin-block-start: 0em!important;
@@ -47,7 +61,7 @@ h2{
     
 
 }
-.nav a{
+.nav-list a{
     padding:8px 8px 0 8px;
     font-size:xx-large;
     color: rgb(60 88 171);
@@ -56,11 +70,11 @@ h2{
     
 }
 
-.nav a:hover {
+.nav-list a:hover {
     color: rgb(227, 63, 45);
 }
 
-.nav li:last-of-type a {
+.nav-list li:last-of-type a {
   border-top-right-radius: 5px;
 }
 
