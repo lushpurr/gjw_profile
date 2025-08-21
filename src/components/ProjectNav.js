@@ -1,17 +1,18 @@
 import React, {useState, useEffect} from 'react';
 import { NavLink } from "react-router-dom";
-import {FaShuttleVan, FaIdCard, FaMoneyBillWave , FaMoon, FaPizzaSlice, FaHeadphones, FaDungeon} from 'react-icons/fa';
+import {FaShuttleVan, FaIdCard, FaMoneyBillWave , FaMoon, FaPizzaSlice, FaHeadphones, FaDungeon, FaClipboardList} from 'react-icons/fa';
 import './ProjectNav.css'
 import { useLocation } from 'react-router-dom/cjs/react-router-dom.min';
 
 const navItems = [
-{ to: process.env.PUBLIC_URL + '/', icon: <FaIdCard />, title: 'Gavin Will | Software Developer Portfolio' },
-{ to: '/uniqore', icon: <FaShuttleVan />, title: 'UniQore | Commercial Logistics Solution' },
-{ to: '/spend-tracker', icon: <FaMoneyBillWave />, title: 'Spend Tracker | Solo project' },
-{ to: '/solar-system', icon: <FaMoon />, title: 'Educational Solar System App | Team project' },
-{ to: '/food-management', icon: <FaPizzaSlice />, title: 'Restaurant Booking System | Team project' },
-{ to: '/music', icon: <FaHeadphones />, title: 'Musical Artist Site  | Solo project' },
-{ to: '/adventure-game', icon: <FaDungeon />, title: 'Text Based Adventure Game | Pair project' }
+    { to: process.env.PUBLIC_URL + '/', icon: <FaIdCard />, title: 'Gavin Will | Software Developer Portfolio' },
+    { to: '/uniqore', icon: <FaShuttleVan />, title: 'UniQore | Commercial Logistics Solution' },
+    { to: '/self-assess', icon: <FaClipboardList/>, title: 'Self Assessment Portal | Full Stack Amplify App'},
+    { to: '/spend-tracker', icon: <FaMoneyBillWave />, title: 'Spend Tracker | Solo project' },
+    { to: '/solar-system', icon: <FaMoon />, title: 'Educational Solar System App | Team project' },
+    { to: '/food-management', icon: <FaPizzaSlice />, title: 'Restaurant Booking System | Team project' },
+    { to: '/music', icon: <FaHeadphones />, title: 'Musical Artist Site  | Solo project' },
+    { to: '/adventure-game', icon: <FaDungeon />, title: 'Text Based Adventure Game | Pair project' }
 ];
 
 function ProjectNav(){

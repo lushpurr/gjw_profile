@@ -9,6 +9,7 @@ import Music from '../components/projects/Music';
 import AdventureGame from '../components/projects/AdventureGame';
 import UniQore from '../components/projects/UniQore';
 import './ProjectContainer.css'
+import SelfAssess from '../components/projects/SelfAssessment';
 
 function ProjectContainer(){
     return (
@@ -30,19 +31,29 @@ function ProjectContainer(){
             <Route exact path="/uniqore" render={() => {
                 return (
                     <>
-										  <div className="project-info">
+						<div className="project-info">
                   			<UniQore/>
-                			</div>
+                		</div>
 
-										</>
+					</>
+                )
+            }}/>
+            <Route exact path="/self-assess" render={() => {
+                return (
+                    <>
+						<div className="project-info">
+                  			<SelfAssess/>
+                		</div>
+
+					</>
                 )
             }}/>
             <Route exact path="/spend-tracker" render={() => {
                 return (
                 <>
-                <div className="project-info">
-                    <SpendTracker/>
-                </div>
+                    <div className="project-info">
+                        <SpendTracker/>
+                    </div>
                 </>
                 )}}
             />
@@ -50,38 +61,38 @@ function ProjectContainer(){
             <Route exact path="/solar-system" render={() => {
                 return (
                 <>
-                <div className="project-info">
-                    <SolarSystem/>
-                </div>
+                    <div className="project-info">
+                        <SolarSystem/>
+                    </div>
                 </>
                 )}}
             />
             <Route exact path="/food-management" render={() => {
-                    return (
-                    <>
+                return (
+                <>
                     <div className="project-info">
                         <FoodManagement/>
                     </div>
-                    </>
-                    )}}
+                </>
+                )}}
             />
             <Route exact path="/music" render={() => {
-                    return (
-                    <>
+                return (
+                <>
                     <div className="project-info">
                         <Music/>
                     </div>
-                    </>
-                    )}}
+                </>
+                )}}
             />
             <Route exact path="/adventure-game" render={() => {
-                    return (
-                    <>
+                return (
+                <>
                     <div className="project-info">
                         <AdventureGame/>
                     </div>
-                    </>
-                    )}}
+                </>
+                )}}
             />
             </Switch>
         </Router>

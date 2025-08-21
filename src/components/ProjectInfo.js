@@ -1,7 +1,8 @@
 import React from 'react';
-import Face from '.././images/face.jpg';
+import Face from '.././images/face_medium.jpeg';
 import Clipboard from "clipboard";
 import classNames from 'classnames';
+import './ProjectInfo.css'
 
 import {FaEnvelope ,FaGithub, FaLinkedin} from 'react-icons/fa';
 
@@ -24,25 +25,20 @@ const ProjectInfo = () => {
 
     return (
         <>
-            <div id="project-info">
-                <h4>Software Developer with a background in engineering</h4>
-                <div className="main">
+            <div >
+                <div className="project-info-container">
                     <img alt="profile" className="project-face" src={Face}/>
-                     <ul>
-                    <li style={{ 'paddingBottom': 10, 'listStyleType': 'square'}}>I use strong problem-solving skills, attention to detail, and a drive for continuous learning to deliver full-stack web and mobile solutions.</li>
+                    <ul>
+                        <li style={{ 'paddingBottom': 10, 'listStyleType': 'square'}}>I use strong problem-solving skills, attention to detail, and a drive for continuous learning to deliver full-stack web and mobile solutions.</li>
 
-                    <li style={{'listStyleType': 'square'}}>Typescript, Javascript, Python, Java,  Angular, React, Vue.js, Ionic, Xcode, Android Studio, GraphQl, Tailwind, HTML, CSS, SCSS/SASS, AWS Amplify, AppSync, DynamoDB, CloudWatch, Git, MongoDB, PostgreSQL, Figma, Storybook, Chromatic, VS Code, Jira, Cypress, Mocha,  Express, Spring</li>
+                        <li style={{'listStyleType': 'square'}}>Typescript, Javascript, Python, Java,  Angular, React, Vue.js, Ionic, Xcode, Android Studio, GraphQl, Tailwind, HTML, CSS, SCSS/SASS, AWS Amplify, AppSync, DynamoDB, CloudWatch, Git, MongoDB, PostgreSQL, Figma, Storybook, Chromatic, VS Code, Jira, Cypress, Mocha,  Express, Spring</li>
 
-                    <li id="blank-li"></li>
-                    <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope /><div>Email</div></li>
-                    <li className="contact-details"><a className="link" href="https://www.linkedin.com/in/gavin-j-will" target="_blank" rel="noreferrer"><FaLinkedin />LinkedIn</a></li>
-                    <li className="contact-details"><a className="link" href="https://github.com/lushpurr" target="_blank" rel="noreferrer"><FaGithub />Github</a></li>
-                    
-                </ul>
-
-
-                </div>
-               
+                        <li id="blank-li"></li>
+                        <li className={emailClass} data-clipboard-text="gavinjwill@gmail.com"><FaEnvelope /><div>Email</div></li>
+                        <li className="contact-details"><a className="link" href="https://www.linkedin.com/in/gavin-j-will" target="_blank" rel="noreferrer"><FaLinkedin />LinkedIn</a></li>
+                        <li className="contact-details"><a className="link" href="https://github.com/lushpurr" target="_blank" rel="noreferrer"><FaGithub />Github</a></li>
+                    </ul>
+                </div>              
             </div>
         </>
     )
