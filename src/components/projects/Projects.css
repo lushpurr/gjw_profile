@@ -14,21 +14,7 @@
 
 
 
-.project-face{
-    max-height:300px;
-    display: block;
-    width: auto;
-    max-width: 95%;
-    box-shadow: lightblue 3px 3px;
-    border-radius: 5px;
-}
 
-@media only screen and (max-width: 500px) {
-    .project-face{
-        
-        width:auto;
-    }
-  }
 
 
 a.link{
@@ -45,7 +31,7 @@ a.link{
 
 
 
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
     h3{
         font-size: small;
     }
@@ -62,7 +48,7 @@ a.link{
  
     }
 
-  }
+} */
 
 p{
     font-size: small;
@@ -78,10 +64,7 @@ li {
 
 }
 
-       .main{
-            display: flex;
-            flex-direction: row;
-        }
+   
 
 .contact-details{
     list-style: none;
