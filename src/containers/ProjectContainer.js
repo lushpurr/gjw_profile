@@ -67,7 +67,7 @@ function ProjectContainer(){
                 </>
                 )}}
             />
-            <Route exact path="/food-management" render={() => {
+            {/* <Route exact path="/food-management" render={() => {
                 return (
                 <>
                     <div className="project-info">
@@ -75,7 +75,7 @@ function ProjectContainer(){
                     </div>
                 </>
                 )}}
-            />
+            /> */}
             <Route exact path="/music" render={() => {
                 return (
                 <>
@@ -85,7 +85,7 @@ function ProjectContainer(){
                 </>
                 )}}
             />
-            <Route exact path="/adventure-game" render={() => {
+            {/* <Route exact path="/adventure-game" render={() => {
                 return (
                 <>
                     <div className="project-info">
@@ -93,7 +93,7 @@ function ProjectContainer(){
                     </div>
                 </>
                 )}}
-            />
+            /> */}
             </Switch>
         </Router>
     )
