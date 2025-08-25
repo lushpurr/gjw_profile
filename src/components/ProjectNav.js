@@ -10,9 +10,9 @@ const navItems = [
     { to: '/self-assess', icon: <FaClipboardList/>, title: 'Self Assessment Portal | Full Stack Amplify App'},
     { to: '/spend-tracker', icon: <FaMoneyBillWave />, title: 'Spend Tracker | Solo project' },
     { to: '/solar-system', icon: <FaMoon />, title: 'Educational Solar System App | Team project' },
-    { to: '/food-management', icon: <FaPizzaSlice />, title: 'Restaurant Booking System | Team project' },
+    // { to: '/food-management', icon: <FaPizzaSlice />, title: 'Restaurant Booking System | Team project' },
     { to: '/music', icon: <FaHeadphones />, title: 'Musical Artist Site  | Solo project' },
-    { to: '/adventure-game', icon: <FaDungeon />, title: 'Text Based Adventure Game | Pair project' }
+    // { to: '/adventure-game', icon: <FaDungeon />, title: 'Text Based Adventure Game | Pair project' }
 ];
 
 function ProjectNav(){
